@@ -1,0 +1,16 @@
+### login 
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "username": "john",
+  "password": "changeme"
+}
+
+### get profile
+GET http://localhost:3000/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG4iLCJzdWIiOjEsImlhdCI6MTY1OTQ2ODIyMSwiZXhwIjoxNjU5NDY4MjgxfQ.3V0YYIc30vgqO5s9i0iuBq9jJhSbFPq5_xAyXbhxgAE
+
+
+### find all
+GET http://localhost:3000/
